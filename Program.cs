@@ -11,6 +11,7 @@ builder.Services.AddScoped<OrderState>();
 
 var app = builder.Build();
 
+
 if (!app.Environment.IsDevelopment())
 {
     app.UseExceptionHandler("/Error");
